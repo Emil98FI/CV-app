@@ -1,0 +1,101 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Personal information</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item lines="full">
+    <ion-text>
+      <h2>Name</h2>
+      <h5>Emil Brummer</h5>
+
+    </ion-text>
+  </ion-item>
+
+  <ion-item lines="full">
+    <ion-text>
+      <h2>Birth date and birth place</h2>
+      <h5>15.3.1998 Espoo
+      </h5>
+
+    </ion-text>
+
+  </ion-item>
+
+  <ion-item lines="full">
+    <ion-text>
+      <h2>Education</h2>
+      <h5>Kasavuori secondary school, finished in spring 2014</h5>
+      <h5>Kauniainen High School, finished 2017</h5>
+      <h5>Laurea Ammattikorkeakoulu, -
+      </h5>
+
+    </ion-text>
+
+  </ion-item>
+  <ion-item lines="full">
+    <ion-text>
+      <h2>Work experience
+      </h2>
+      <h5>(internship) Cafe picnic Tapiola
+        -Making easy snack,cleaning and doing the the dishes
+      </h5>
+      <h5>(internship)Subway tapiola 18-­22.3 2013
+        -Packing frozen food for the sale,cleaning,
+        doing the dishes and other help in the restaurant
+
+      </h5>
+      <h5>(internship)Halva pitäjänmäki 18­-22.11 2013
+        -Packing candies in bags, sorting pastilles in different boxes
+
+      </h5>
+
+      <h5>(Summer job) WB-sails oy 30.6-11.7 2014
+        -manufacturing sails,cleaning
+
+
+      </h5>
+
+      <h5>
+        Inex Partners
+        -Warehouse work
+      </h5>
+
+    </ion-text>
+
+  </ion-item>
+
+  <ion-item lines="full">
+    <ion-text>
+      <h2>Language skills
+      </h2>
+      <h5>Finnish: Native language
+
+      </h5>
+
+      <h5>English:Good
+      </h5>
+
+      <h5>Swedish:Good
+      </h5>
+
+
+
+    </ion-text>
+
+  </ion-item>
+
+
+
+
+
+
+
+
+
+  <ion-button type="submit" (click)="authService.SignOut()" expand="block">Logout</ion-button>
+</ion-content>
